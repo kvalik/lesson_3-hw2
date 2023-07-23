@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук</title>
+</head>
+<body>
+  <form action="https://fom.in.ua/echo" method="GET">
+    <label for="body_type">Тип кузова:</label>
+    <input type="text" id="body_type" name="body_type"><br>
+    
+    <label for="brand">Марка авто:</label>
+    <input type="text" id="brand" name="brand"><br>
+    
+    <label for="manufacturer_country">Країна виробник:</label>
+    <input type="text" id="manufacturer_country" name="manufacturer_country"><br>
+    
+    <label for="price_from">Ціна (від):</label>
+    <input type="number" id="price_from" name="price_from"><br>
+    
+    <label for="price_to">Ціна (до):</label>
+    <input type="number" id="price_to" name="price_to"><br>
+    
+    <label for="year_from">Рік випуску (від):</label>
+    <input type="number" id="year_from" name="year_from"><br>
+    
+    <label for="year_to">Рік випуску (до):</label>
+    <input type="number" id="year_to" name="year_to"><br>
+    
+    <label for="condition">Стан:</label>
+    <select id="condition" name="condition" multiple>
+      <option value="Бита">Бита</option>
+      <option value="У кредиті">У кредиті</option>
+      <option value="Нерозмитнена">Нерозмитнена</option>
+    </select><br>
+    
+    <label for="fuel_type">Тип палива:</label>
+    <input type="text" id="fuel_type" name="fuel_type"><br>
+    
+    <label for="transmission">Тип коробки передач:</label>
+    <input type="text" id="transmission" name="transmission"><br>
+    
+    <label for="color">Колір:</label>
+    <input type="text" id="color" name="color"><br>
+    
+    <label for="comfort">Комфорт:</label>
+    <input type="text" id="comfort" name="comfort"><br>
+    
+    <input type="submit" value="Знайти">
+  </form>
+</body>
+</html>
